@@ -1,0 +1,163 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'expressworks' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'expressworks', null ]
+5 verbose cache add name=undefined spec="expressworks" args=["expressworks",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'expressworks',
+6 verbose parsed url   path: 'expressworks',
+6 verbose parsed url   href: 'expressworks' }
+7 silly lockFile 05b8188c-expressworks expressworks
+8 verbose lock expressworks /Users/kneiser/.npm/05b8188c-expressworks.lock
+9 silly lockFile 05b8188c-expressworks expressworks
+10 silly lockFile 05b8188c-expressworks expressworks
+11 verbose addNamed [ 'expressworks', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 70303fe0-expressworks expressworks@
+14 verbose lock expressworks@ /Users/kneiser/.npm/70303fe0-expressworks.lock
+15 silly addNameRange { name: 'expressworks', range: '*', hasData: false }
+16 verbose request where is /expressworks
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 54f37849cf6ef4db
+19 verbose url raw /expressworks
+20 verbose url resolving [ 'https://registry.npmjs.org/', './expressworks' ]
+21 verbose url resolved https://registry.npmjs.org/expressworks
+22 verbose request where is https://registry.npmjs.org/expressworks
+23 info trying registry request attempt 1 at 23:29:18
+24 http GET https://registry.npmjs.org/expressworks
+25 http 200 https://registry.npmjs.org/expressworks
+26 silly registry.get cb [ 200,
+26 silly registry.get   { date: 'Tue, 30 Dec 2014 04:29:19 GMT',
+26 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"68CRSHNA1FC0J3DX0YVDPI62P"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'cache-control': 'max-age=60',
+26 silly registry.get     'content-length': '27038',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     'x-served-by': 'cache-ord1720-ORD',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1419913758.912269,VS0,VE333',
+26 silly registry.get     vary: 'Accept',
+26 silly registry.get     'keep-alive': 'timeout=10, max=50',
+26 silly registry.get     connection: 'Keep-Alive' } ]
+27 silly addNameRange number 2 { name: 'expressworks', range: '*', hasData: true }
+28 silly addNameRange versions [ 'expressworks',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.0.6',
+28 silly addNameRange     '0.0.7',
+28 silly addNameRange     '0.0.8',
+28 silly addNameRange     '0.0.9',
+28 silly addNameRange     '0.0.10',
+28 silly addNameRange     '0.0.11',
+28 silly addNameRange     '0.0.12',
+28 silly addNameRange     '0.0.13',
+28 silly addNameRange     '0.0.16',
+28 silly addNameRange     '0.0.17',
+28 silly addNameRange     '0.0.18',
+28 silly addNameRange     '0.0.20',
+28 silly addNameRange     '0.0.21',
+28 silly addNameRange     '0.0.22',
+28 silly addNameRange     '0.0.23' ] ]
+29 verbose addNamed [ 'expressworks', '0.0.23' ]
+30 verbose addNamed [ '0.0.23', '0.0.23' ]
+31 silly lockFile 309c876a-expressworks-0-0-23 expressworks@0.0.23
+32 verbose lock expressworks@0.0.23 /Users/kneiser/.npm/309c876a-expressworks-0-0-23.lock
+33 silly lockFile f0f6230e-essworks-expressworks-0-0-23-tgz https://registry.npmjs.org/expressworks/-/expressworks-0.0.23.tgz
+34 verbose lock https://registry.npmjs.org/expressworks/-/expressworks-0.0.23.tgz /Users/kneiser/.npm/f0f6230e-essworks-expressworks-0-0-23-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/expressworks/-/expressworks-0.0.23.tgz',
+35 verbose addRemoteTarball   'd2df64a68d2d94227763e07f09c37ee712487a81' ]
+36 info retry fetch attempt 1 at 23:29:19
+37 verbose fetch to= /var/folders/fg/6mzfgkr57fj6r6mbmhnb0ycc0000gn/T/npm-95997-JqvszODs/registry.npmjs.org/expressworks/-/expressworks-0.0.23.tgz
+38 http GET https://registry.npmjs.org/expressworks/-/expressworks-0.0.23.tgz
+39 http 200 https://registry.npmjs.org/expressworks/-/expressworks-0.0.23.tgz
+40 silly lockFile f0f6230e-essworks-expressworks-0-0-23-tgz https://registry.npmjs.org/expressworks/-/expressworks-0.0.23.tgz
+41 silly lockFile f0f6230e-essworks-expressworks-0-0-23-tgz https://registry.npmjs.org/expressworks/-/expressworks-0.0.23.tgz
+42 silly lockFile 309c876a-expressworks-0-0-23 expressworks@0.0.23
+43 silly lockFile 309c876a-expressworks-0-0-23 expressworks@0.0.23
+44 silly lockFile 70303fe0-expressworks expressworks@
+45 silly lockFile 70303fe0-expressworks expressworks@
+46 silly resolved [ { name: 'expressworks',
+46 silly resolved     version: '0.0.23',
+46 silly resolved     description: 'Express.js workshop based on workshopper and inspired by stream-adventure by @substack and @maxogden.',
+46 silly resolved     main: 'expressworks.js',
+46 silly resolved     author: { name: 'Azat Mardanov', url: '@azat_co' },
+46 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+46 silly resolved     repository: { type: 'git', url: 'https://github.com/azat-co/expressworks' },
+46 silly resolved     keywords: [ 'express.js', 'node.js', 'javascript', 'nodeschool.io' ],
+46 silly resolved     license: 'BSD-2-Clause',
+46 silly resolved     bugs: { url: 'https://github.com/azat-co/expressworks/issues' },
+46 silly resolved     bin: { expressworks: './expressworks.js' },
+46 silly resolved     preferGlobal: true,
+46 silly resolved     dependencies:
+46 silly resolved      { 'body-parser': '^1.5.1',
+46 silly resolved        express: '~4.4.2',
+46 silly resolved        jade: '~0.35.0',
+46 silly resolved        stylus: '~0.38.0',
+46 silly resolved        superagent: '~0.15.7',
+46 silly resolved        workshopper: '~0.3.3' },
+46 silly resolved     gitHead: 'ad85ad160d318f58dee3626da8be9a85c26d1e1e',
+46 silly resolved     homepage: 'https://github.com/azat-co/expressworks',
+46 silly resolved     _id: 'expressworks@0.0.23',
+46 silly resolved     _shasum: 'd2df64a68d2d94227763e07f09c37ee712487a81',
+46 silly resolved     _from: 'expressworks@',
+46 silly resolved     _npmVersion: '1.4.23',
+46 silly resolved     _npmUser: { name: 'azat', email: 'hi@azat.co' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'd2df64a68d2d94227763e07f09c37ee712487a81',
+46 silly resolved        tarball: 'http://registry.npmjs.org/expressworks/-/expressworks-0.0.23.tgz' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/expressworks/-/expressworks-0.0.23.tgz' } ]
+47 info install expressworks@0.0.23 into /usr/local/lib
+48 info installOne expressworks@0.0.23
+49 verbose lib/node_modules/expressworks unbuild
+50 verbose tar unpack /Users/kneiser/.npm/expressworks/0.0.23/package.tgz
+51 silly lockFile 429d8e7b-al-lib-node-modules-expressworks tar:///usr/local/lib/node_modules/expressworks
+52 verbose lock tar:///usr/local/lib/node_modules/expressworks /Users/kneiser/.npm/429d8e7b-al-lib-node-modules-expressworks.lock
+53 silly lockFile e06975dd--expressworks-0-0-23-package-tgz tar:///Users/kneiser/.npm/expressworks/0.0.23/package.tgz
+54 verbose lock tar:///Users/kneiser/.npm/expressworks/0.0.23/package.tgz /Users/kneiser/.npm/e06975dd--expressworks-0-0-23-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/local/lib/node_modules/expressworks'
+56 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/expressworks']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/local/lib/node_modules/expressworks',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/local/lib/node_modules/expressworks',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Darwin 14.0.0
+59 error command "node" "/usr/local/bin/npm" "install" "-g" "expressworks"
+60 error cwd /Users/kneiser/Desktop/code/nodeschool.io/expressworks
+61 error node -v v0.10.32
+62 error npm -v 1.4.28
+63 error path /usr/local/lib/node_modules/expressworks
+64 error fstream_path /usr/local/lib/node_modules/expressworks
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/expressworks'
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
