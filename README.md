@@ -8,3 +8,5 @@ Node.js exercises from nodeschool.io:
     * Learn to compose streaming interfaces with ```.pipe()```.
 * expressworks
     * Learn the basics of the Express.js framework.
+* learnyoucouchdb
+    * Learn about CouchDB - the database that completely embraces the web.
