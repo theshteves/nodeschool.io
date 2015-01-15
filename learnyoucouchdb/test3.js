@@ -43,8 +43,10 @@ This will result in a view that can be queried at
 http://localhost:5984/things-learn-couchdb/_design/thingsMadeOfMetal/_view/thingsMadeOfMetal
 */
 
+
+// Map function
 function(doc) {
-    if(doc.material == "metal") {
-	emit(doc.name);
+    if(doc.material === "metal") {
+	emit(null, doc)
     }
 }
